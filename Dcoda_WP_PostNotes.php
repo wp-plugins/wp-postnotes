@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: WP-PostNotes
+Plugin Name: WP_PostNotes
 Plugin URI: http://www.dcoda.co.uk/index.php/downloads/wordpress/wp_postnotes/
 Description: WP-PostnNotes allows you to add notes to a post that will only be viewable when editing.
 Author: DCoda Ltd
