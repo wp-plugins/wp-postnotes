@@ -2,4 +2,4 @@
 
 Tags: post,private,hidden
 
-Stable tag: 1.0
+Stable tag: 2.0
