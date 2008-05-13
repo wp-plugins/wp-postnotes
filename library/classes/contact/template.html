@@ -1,0 +1,21 @@
+<form method="POST" style="text-align:left">
+	<fieldset class="user" style="@@user-fborder@@">
+		<legend><strong>Your Name</strong></legend>
+		<input name='usersettings[user]' style='width:300px;' value='@@user@@'/> Required
+	</fieldset>
+	<fieldset class="email" style="@@email-fborder@@">
+		<legend><strong>Your Email Address</strong></legend>
+		<input name='usersettings[email]' style='width:300px;' value='@@email@@'/> Required
+	</fieldset>
+	<fieldset class="site" style="border:none">
+		<legend><strong>Your Website</strong></legend>
+		<input name='usersettings[site]' style='width:300px;' value='@@site@@'/>
+	</fieldset>
+	@@content@@
+	<fieldset class="copy" style="@@copy-fborder@@">
+		<input type="checkbox" name='usersettings[cc]' @@checked@@/> receive copy?
+	</fieldset>
+	@@captcha@@
+	<input type="hidden" name='usersettings[ip]' value="@@ip@@"/>
+	<input type="submit" style="width:100%" value="Submit"/>
+</form>

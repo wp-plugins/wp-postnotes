@@ -1,5 +1,5 @@
 <?php
-class dc_upgrade_1_0_1 extends dc_base_1_0_2 {
+class dc_upgrade_1_0_1 extends dc_base_2_1_0 {
 	function config($title,$tag)
 	{
 		$this->title=$title;

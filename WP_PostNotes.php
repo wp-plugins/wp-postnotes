@@ -8,9 +8,10 @@ Author URI: http://www.dcoda.co.uk
 Version: 2.5
 */
 require_once(dirname(__FILE__).'/library/classes/base.php');
-class DCodaPostNotes extends dc_base_1_0_2  {
+class DCodaPostNotes extends dc_base_2_1_0  {
 	function init()
 	{
+		$this->setPath(__FILE__);
 		$this->loadClass('postnotes');
 	}
 }

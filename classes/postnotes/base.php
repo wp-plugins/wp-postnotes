@@ -1,5 +1,5 @@
 <?php
-class dc_postnotes_2_5_0 extends dc_base_1_0_2 {
+class dc_postnotes_2_5_0 extends dc_base_2_1_0 {
 	function init()
 	{
 		$this->loadClass('wp_plugin',array($this,'plugins_loaded'));
