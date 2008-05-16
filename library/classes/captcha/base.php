@@ -1,5 +1,5 @@
 <?php
-class dc_captcha_1_0_0 extends dc_base_2_1_0 {
+class dc_captcha_1_0_0 extends dc_base_2_2_0 {
 	function show()
 	{
 		if(!$this->check() || !$_POST)

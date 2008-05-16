@@ -1,5 +1,5 @@
 <?php
-class dc_delicious_1_0_0 extends dc_base_2_1_0 {
+class dc_delicious_1_0_0 extends dc_base_2_2_0 {
 	var $password="";
 	var $username="";
 	var $base_url="https://api.del.icio.us/v1/";

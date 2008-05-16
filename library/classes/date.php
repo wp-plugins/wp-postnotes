@@ -1,5 +1,5 @@
 <?php
-class dc_date_1_0_0 extends dc_base_2_1_0 {
+class dc_date_1_0_0 extends dc_base_2_2_0 {
 	function stumble($date)
 	{
 		return strtotime($date);

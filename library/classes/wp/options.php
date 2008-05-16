@@ -1,5 +1,5 @@
 <?php
-class dc_wp_options_1_0_2 extends dc_base_2_1_0 {
+class dc_wp_options_1_0_2 extends dc_base_2_2_0 {
 	var $values = array();
 	var $_name = null;
 	function init() {

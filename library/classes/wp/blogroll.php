@@ -1,6 +1,6 @@
 <?php
 require_once( ABSPATH . 'wp-admin/includes/admin.php');
-class dc_wp_blogroll_1_0_0 extends dc_base_2_1_0 {
+class dc_wp_blogroll_1_0_0 extends dc_base_2_2_0 {
 	
 	/**
 	 * add category and return term id

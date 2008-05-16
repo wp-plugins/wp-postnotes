@@ -1,5 +1,5 @@
 <?php
-class dc_wptimer_1_1_1 extends dc_base_2_1_0 {
+class dc_wptimer_1_1_1 extends dc_base_2_2_0 {
 	var $startTime = 0;
 	function timeout($start=false)
 	{

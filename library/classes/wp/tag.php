@@ -1,5 +1,5 @@
 <?php
-class dc_wp_tag_1_1_1 extends dc_base_2_1_0 {
+class dc_wp_tag_1_1_1 extends dc_base_2_2_0 {
 	
 	function tokenise($post,$timer)
 	{

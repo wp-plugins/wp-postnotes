@@ -1,5 +1,5 @@
 <?php
-class dc_feed_1_3_0 extends dc_base_2_1_0 {
+class dc_feed_1_3_0 extends dc_base_2_2_0 {
 	function OPMLtoArray($OPML)
 	{
 		$patterns[0]='|<outline(.*)>|Ui';

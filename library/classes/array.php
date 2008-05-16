@@ -1,5 +1,5 @@
 <?php
-class dc_array_1_0_0 extends dc_base_2_1_0 {
+class dc_array_1_0_0 extends dc_base_2_2_0 {
 	function delete_key($array,$delete)
 	{
 		$return = null;

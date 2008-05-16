@@ -1,5 +1,5 @@
 <?php
-if (!class_exists('dc_base_2_1_0')) {
+if (!class_exists('dc_base_2_2_0')) {
 /*
 	note:
 	major limitation with php 4.3. 	
@@ -9,7 +9,7 @@ if (!class_exists('dc_base_2_1_0')) {
 	sure you will be running on php 5
 */
 	
-	class dc_base_2_1_0 {
+	class dc_base_2_2_0 {
 		// the top most class in the class stucture
 		var $projectClass = null;
 		// the path to be searched when looking for files
@@ -19,7 +19,7 @@ if (!class_exists('dc_base_2_1_0')) {
 		// the callback function that may be called should you need it
 		var $callback = null;
 
-		function dc_base_2_1_0($projectClass = null,$callback=null,$args=array(),$caller=null){
+		function dc_base_2_2_0($projectClass = null,$callback=null,$args=array(),$caller=null){
 			global $dcoda_direct;
 			if(is_null($caller))
 				$caller=$this;
@@ -92,7 +92,7 @@ if (!class_exists('dc_base_2_1_0')) {
 		{
 			$load=str_replace('_','/',$load);
 			$file=dirname(__FILE__).DIRECTORY_SEPARATOR.$load.".php";
-			if (!file_exists($file))
+			if ($load!='file')
 			{
 				$f=$this->loadClass('file');
 				$file = $f->findFile($load.".php");

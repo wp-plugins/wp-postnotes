@@ -1,5 +1,5 @@
 <?php
-class dc_wp_header_1_2_0 extends dc_base_2_1_0 {
+class dc_wp_header_1_2_0 extends dc_base_2_2_0 {
 	function init() {
 		$this->config();
 	}

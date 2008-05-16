@@ -1,5 +1,5 @@
 <?php
-class dc_wp_marker_1_1_0 extends dc_base_2_1_0 {
+class dc_wp_marker_1_1_0 extends dc_base_2_2_0 {
 	var $marker = '';
 	var $callback = null;
 	function config($marker,$callback,$priority=1) {

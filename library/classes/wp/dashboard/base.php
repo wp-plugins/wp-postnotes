@@ -1,5 +1,5 @@
 <?php
-class dc_wp_dashboard_1_3_0 extends dc_base_2_1_0 {
+class dc_wp_dashboard_1_3_0 extends dc_base_2_2_0 {
 // -- DashBoard stuff ----------------------------------------------------------------------------------------------------------------
 	function init() {
 		add_action('admin_menu', Array(&$this,'init_dashboard'));

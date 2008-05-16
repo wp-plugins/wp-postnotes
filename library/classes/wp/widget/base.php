@@ -1,5 +1,5 @@
 <?php
-class dc_wp_widget_1_2_0 extends dc_base_2_1_0 {
+class dc_wp_widget_1_2_0 extends dc_base_2_2_0 {
 	var $max_widgets = 20;
 	var $Description = "";
 	function init()

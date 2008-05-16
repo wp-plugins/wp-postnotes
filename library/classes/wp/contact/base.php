@@ -1,5 +1,5 @@
 <?php
-class dc_wp_contact_1_0_0 extends dc_base_2_1_0 {
+class dc_wp_contact_1_0_0 extends dc_base_2_2_0 {
 	function show($content="",$show_captcha=true,$allow_cc=true)
 	{
 		global $userdata;

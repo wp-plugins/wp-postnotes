@@ -7,7 +7,7 @@ if (file_exists(ABSPATH . WPINC . '/rss.php')){
 else {
 	include_once (ABSPATH . WPINC . '/rss-functions.php');
 }
-class dc_wp_feeds_1_1_0 extends dc_base_2_1_0 {
+class dc_wp_feeds_1_1_0 extends dc_base_2_2_0 {
 	function get($url,$number = 100,$cache_mins = 5) {
 		return (array)"Update RSS get to fetch";		
 	}

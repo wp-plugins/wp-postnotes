@@ -1,5 +1,5 @@
 <?php
-class dc_tag_1_1_1 extends dc_base_2_1_0 {
+class dc_tag_1_1_1 extends dc_base_2_2_0 {
 	function get($tag,$content,$comment=false)
 	{
 		$comment_start = '';

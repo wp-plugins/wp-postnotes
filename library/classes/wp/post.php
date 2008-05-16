@@ -1,5 +1,5 @@
 <?php
-class dc_wp_post_1_1_0 extends dc_base_2_1_0 {
+class dc_wp_post_1_1_0 extends dc_base_2_2_0 {
 
 	var	$postStatuses = array('draft','private','publish');
 	var $postTypes = array('post','page');
