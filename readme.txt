@@ -1,6 +1,7 @@
 === WP_PostNotes ===
+Contributors: DCoda Ltd
 Tags: post,private,hidden,user,control,editorial notes,note,notes
-Requires at least: 2.1
+Requires at least: 2.3.2
 Tested up to: 2.5.1
 Stable tag: 2.5.1
 Donate link: http://www.dcoda.co.uk/index.php/donate/
