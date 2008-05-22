@@ -1,15 +1,11 @@
 <?php
-class dc_postnotes_2_5_0 extends dc_base_2_2_0 {
+class dc_postnotes_2_5_0 extends dc_base_2_4_0 {
 	function init()
-	{
-		$this->loadClass('wp_plugin',array($this,'plugins_loaded'));
-		$u=$this->loadClass('upgrade');
-		$u->config("Postnotes","postnote");
-	}
-	function plugins_loaded()
 	{
 		$m = $this->loadClass('wp_marker');
 		$m->config('postnote',array($this,'postnote'));
+		//$u=$this->loadClass('upgrade');
+		//$u->config("Postnotes","postnote");
 	}
 	function postnote($content,$match)
 	{
@@ -40,7 +36,7 @@ class dc_postnotes_2_5_0 extends dc_base_2_2_0 {
 		else
 		{
 			$content=str_replace($match['match'],'',$content);
-		}	
+		}
 		return $content;
 	}
 }
