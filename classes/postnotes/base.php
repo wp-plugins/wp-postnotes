@@ -1,5 +1,5 @@
 <?php
-class dc_postnotes_2_5_0 extends dc_base_2_4_0 {
+class dc_postnotes_2_6_0 extends dc_base_2_4_0 {
 	function init()
 	{
 		$m = $this->loadClass('wp_marker');
@@ -12,8 +12,10 @@ class dc_postnotes_2_5_0 extends dc_base_2_4_0 {
 		global $userdata;
 		$title = $match['attributes']['title'];
 		$demo = $match['attributes']['demo'];
+		$silent = $match['attributes']['silent'];
 		unset($match['attributes']['title']);
 		unset($match['attributes']['demo']);
+		unset($match['attributes']['silent']);
 		$match['attributes'][] = get_the_author();
 		if (in_array($userdata->user_login,$match['attributes']))
 		{
@@ -23,12 +25,21 @@ class dc_postnotes_2_5_0 extends dc_base_2_4_0 {
 			}
 			else
 			{
-				$page = $this->loadHTML('postnotes');
-				if ($title!="")
+				$page= $match['innerhtml'];
+				if(!$silent)
 				{
-					$page= str_replace('@@title@@'," : ".$title,$page);
+					$page = $this->loadHTML('postnotes');
+					if ($title!="")
+					{
+						$page= str_replace('@@title@@'," : ".$title,$page);
+					}
+					else
+					{
+						$page= str_replace('@@title@@',"".$title,$page);
+					}
+					$page= str_replace('@@content@@',$match['innerhtml'],$page);
 				}
-				$page= str_replace('@@content@@',$match['innerhtml'],$page);
+
 			}
 			$content=str_replace($match['match'],$page,$content);
 
