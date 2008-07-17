@@ -10,8 +10,8 @@ $LastChangedBy$
 class dcLoadableClass extends dcbase7 {
 	function init()
 	{
-		$m = $this->loadClass('wp_marker');
-		$m->config('postnote',array($this,'postnote'));
+		$m = $this->loadClass('wp_widget_marker');
+		$m->addMarker('postnote',array($this,'postnote'));
 	}
 	function postnote($content,$match)
 	{
