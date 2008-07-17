@@ -1,11 +1,17 @@
 <?php
-class dc_postnotes_2_6_0 extends dc_base_2_4_0 {
+/*
+$HeadURL$
+$LastChangedDate$
+$LastChangedRevision$
+$LastChangedBy$
+*/
+?>
+<?php
+class dcLoadableClass extends dcbase7 {
 	function init()
 	{
 		$m = $this->loadClass('wp_marker');
 		$m->config('postnote',array($this,'postnote'));
-		//$u=$this->loadClass('upgrade');
-		//$u->config("Postnotes","postnote");
 	}
 	function postnote($content,$match)
 	{
