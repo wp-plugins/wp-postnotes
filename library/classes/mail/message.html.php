@@ -1,0 +1,13 @@
+<?php
+/*
+$HeadURL$
+$LastChangedDate$
+$LastChangedRevision$
+$LastChangedBy$
+*/
+?>
+<html>
+	<body>
+	@@content@@
+	</body>
+</html>
