@@ -1,9 +1,9 @@
 === WP_PostNotes ===
 Contributors: DCoda Ltd
 Tags: post,private,hidden,user,control,editorial notes,note,notes
-Requires at least: 2.3.2
-Tested up to: 2.5.1
-Stable tag: 2.5.1
+Requires at least: 2.5
+Tested up to: 2.6
+Stable tag: 2.6.0
 Donate link: http://www.dcoda.co.uk/index.php/donate/
 
 WP_PostnNotes allows you to add private note to a post that will only be viewable by the author or named users.
@@ -15,7 +15,7 @@ WP_PostnNotes allows you to add private note to a post that will only be viewabl
 == Installation ==
 
 For full instructions please visit the [Plugin Homepage](http://www.dcoda.co.uk/index.php/downloads/wordpress/wp_postnotes/ "Current Documentation")
- 
+
 == Frequently Asked Questions ==
 
 To view and ask questions please visit the [Plugin Homepage](http://www.dcoda.co.uk/index.php/downloads/wordpress/wp_postnotes/ "Current Documentation")
