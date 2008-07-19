@@ -12,8 +12,6 @@ $LastChangedRevision$
 $LastChangedBy$
 */
 require_once(dirname(__FILE__).'/library/classes/base.php');
-require_once(ABSPATH.'/wp-admin/includes/admin.php');
-require_once(ABSPATH.'/wp-admin/includes/upgrade.php');
 class wp_postnotes extends dcbase7  {}
 new wp_postnotes(__FILE__,'wp','postnotes');
 ?>
