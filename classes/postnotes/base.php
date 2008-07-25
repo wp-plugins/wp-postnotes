@@ -7,7 +7,7 @@ $LastChangedBy$
 */
 ?>
 <?php
-class dcLoadableClass extends dcbase7 {
+class dcLoadableClass{
 	function init()
 	{
 		$m = $this->loadClass('wp_widget_marker');
